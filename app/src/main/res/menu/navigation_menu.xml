@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menuHome"
+        android:title="Accueil" />
+
+    <!-- Catalog Menu Item with Submenu -->
+    <item
+        android:id="@+id/menuCatalogue"
+        android:title="Catalogue">
+        <menu>
+            <item
+                android:id="@+id/menuMen"
+                android:title="Homme" />
+            <item
+                android:id="@+id/menuWomen"
+                android:title="Femme" />
+            <item
+                android:id="@+id/menuKids"
+                android:title="Enfant" />
+            <item
+                android:id="@+id/menuSports"
+                android:title="Sport" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/menuContact"
+        android:title="Contact" />
+
+    <item
+        android:id="@+id/menuCommande"
+        android:title="Commande" />
+</menu>
